@@ -1,0 +1,71 @@
+body{
+
+    margin:0;
+    background:#d3d3d3;
+
+    display:flex;
+    flex-direction:column;
+
+    align-items:center;
+
+    height:100vh;
+}
+
+.palette{
+
+    margin-top:40px;
+
+    display:flex;
+    gap:25px;
+}
+
+.color{
+
+    width:150px;
+    height:50px;
+
+    border-radius:5px;
+    border:1px solid black;
+
+    cursor:pointer;
+}
+
+.red{
+    background:#d61f2c;
+}
+
+.blue{
+    background:#3b74d1;
+}
+
+.yellow{
+    background:#ffd600;
+}
+
+.green{
+    background:#2ebd25;
+}
+
+.white{
+    background:white;
+}
+
+.orange{
+    background:#ff7800;
+}
+
+#cube-container{
+
+    width:700px;
+    height:500px;
+    background: red;
+    margin-top:20px;
+}
+
+.controls{
+
+    margin-top:20px;
+
+    display:flex;
+    gap:15px;
+}
